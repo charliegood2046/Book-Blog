@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book Page</title>
+    <!-- comment: left of on Responsive Wk1 CSS Variables -->
     <style>
+      :root {
+        --primary-color: #c59eff;
+        --box-shadow: 20px 20px 20px rgba (0, 0, 0, 0.6);
+        --border: 1px solid blue;
+      }
+
       a {
         color: orange;
       }
@@ -15,14 +22,32 @@
       a:visited {
         color: pink;
       }
+
+      h2 {
+        color: var(--primary-color);
+        box-shadow: var(--box-shadow);
+      }
+      h3 {
+        border: var(--border);
+        box-shadow: var(--box-shadow);
+      }
+      p {
+        background-color: var(--primary-color);
+        color: white;
+        box-shadow: var(--box-shadow);
+        border: var(--border);
+      }
     </style>
   </head>
   <body>
     <h1>Book Blog</h1>
+    <h2>Booktok Bestsellers</h2>
+    <h3>Romantasy</h3>
     <a href="about.html">About Page</a>
     <br />
     <a href="booktok.html">Booktok Bestsellers</a>
     <br />
     <a href="contact.html">Contact Page</a>
+    <p>This is a paragraph.</p>
   </body>
 </html>
