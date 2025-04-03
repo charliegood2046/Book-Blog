@@ -1,5 +1,17 @@
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   h1 {
     background-color: purple;
+    text-align: center;
+  }
+  h2,
+  h3,
+  p,
+  footer {
+    text-align: center;
+  }
+  .btn-secondary {
+    background-color: purple;
+    display: block;
+    text-align: center;
   }
 }
