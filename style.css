@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 770px) {
   h1 {
     background-color: purple;
     text-align: center;
@@ -13,5 +13,9 @@
     background-color: purple;
     display: block;
     text-align: center;
+  }
+  img {
+    max-height: 500px;
+    background-color: purple;
   }
 }
