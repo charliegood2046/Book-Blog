@@ -5,9 +5,12 @@
   }
   h2,
   h3,
-  p,
   footer {
     text-align: center;
+  }
+
+  p {
+    text-align: justify;
   }
   .btn-secondary {
     background-color: purple;
